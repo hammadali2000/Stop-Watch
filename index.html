@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Stopwatch</title>
+</head>
+<body>
+    
+    <div class="container-fluid main">
+        <div class="text">
+            <h1 class="input" id="min">00</h1>
+            <h1 class="input" id="sec">00</h1>
+            <h1 class="input" id="msec">00</h1>
+        </div>
+        <div class="container buttons">
+            <div>
+                <button class="btnn start" id="start" onclick = "start()">Start</button>
+            </div>
+            <div>
+                <button class="btnn stop" onclick="stop()">Stop</button>
+            </div>
+            <div>
+                <button class="btnn reset" onclick="reset()">Reset</button>
+            </div>
+        </div>
+
+        <div class="container next">
+            <div>
+                <button class="btnn save" onclick="save()">Save</button>
+            </div>
+            <div>
+                <button class="btnn show" onclick="view()">Show</button>
+            </div>
+        </div>
+        
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

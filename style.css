@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+}
+
+body{
+    background-image: url("background.jpg");
+    background-size: cover;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+
+.input{
+    height: 60px;
+    width: 80px;
+    display: inline-block;
+    color: white;
+    border: 10px solid grey;
+    margin: 0 10px;
+}
+.text{
+    height: 50px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    height: 80px;
+}
+
+.next{
+    height: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.show{
+    background-color: purple;
+    color: white;
+}
+
+.btnn{
+    height: 70px;
+    width: 110px;
+    font-size: 25px;
+    margin: 0 10px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    transition: 0.5s all;
+}
+
+.btnn:hover{
+    font-size: 30px;
+}
+
+.start{
+    background-color: grey;
+    color: white;
+}
+
+.stop{
+    background-color: brown;
+    color: white;
+}
+
+.reset{
+    background-color: turquoise ;
+    color: white;
+}
+
+.save{
+    background-color: olive;
+    color: white;
+}
+
+@media(max-width: 290px){
+    .input{
+        width: 50px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .buttons{
+        margin-left: 10px;
+    }
+
+    .btnn{
+        width: 80px;
+    }
+}
+
+@media(max-width: 360px){
+    .input{
+        width: 50px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .buttons{
+        margin-left: 0px;
+    }
+
+    .btnn{
+        width: 75px;
+    }
+
+    .btnn:hover{
+        font-size: 28px;
+    }
+}
+
+@media(max-width: 250px){
+    .input{
+        width: 40px;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .btnn{
+        width: 60px;
+        font-size: 18px;
+    }
+
+    .btnn:hover{
+        font-size: 22px;
+    }
+}
